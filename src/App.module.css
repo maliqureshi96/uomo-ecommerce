@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.mainSlide{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+}
+
+.mainLeft{
+    height: inherit;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainLeft h1{
+    font-size: 5rem;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 1vh;
+}
+
+.mainLeft h3{
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 1.5vh;
+}
+
+.mainRight{
+    height: inherit;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainLeftContainer{
+    width: 70%;
+    height: auto;
+}
+
+.mainLeftBtn{
+    height: auto;
+    width: 20%;
+    border-bottom: 4px solid rgba(0, 0, 0, 0.425);
+}
+
+.mainLeftBtn:hover{
+    border-bottom: 4px solid rgb(0, 0, 0);
+}
+
+.tredingSection{
+    height: 152vh;
+    width: 100%;
+}
+
+.sectionTitle{
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionTitle h2{
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.category{
+    width: 20%;
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+    font-weight: 400;
+    list-style-type: none;
+    
+}
+
+.category li{
+    border-bottom: 4px solid rgba(0, 0, 0, 0);
+}
+
+.category li:hover{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    transition: 500ms;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productCover{
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6vh;
+}
+
+.allProduct{
+    height: auto;
+    width: auto;
+    padding-top: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.allProduct a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 4px solid rgba(0, 0, 0, 0);
+}
+
+.allProduct a h4{
+    font-weight: 600;
+    font-style: normal;
+}
+
+.allProduct a:hover{
+    border-bottom: 4px solid rgb(0, 0, 0);
+    transition: 500ms;
+}
+
+.bestProductCover{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bestProduct{
+    height: 90%;
+    width: 70%;
+    display: flex;
+    margin-top: 6vh;
+}
+.bestProductLeft{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: start;
+}
+
+.bestProductRight{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: end;
+}
+
+.review{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+
+.circleShap{
+    height: 70%;
+    width: 62%;
+    border: 5vh solid #fff0f1;
+    border-radius: 50%;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subCircle{
+    height: 78%;
+    width: 75%;
+    background-color: #fff0f1;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.circleShap img{
+    position: absolute;
+    z-index: 999;
+    bottom: 0vh;
+    height: 60%;
+    width: 46%;
+}
+
+.reviewLeft, .reviewRight{
+    width: 20%;
+    height: inherit;
+    color: #7f7f7f;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewMid{
+    width: 60%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.reviewMid img{
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+}
+
+.reviewMid h3{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.8rem;
+}
+
+.reviewMid p{
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.insideCollection{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #faf9f7;
+    gap: 2vh;
+}
+
+.insideCollectionHeading{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top: 2vh;
+}
+
+.insideBlock{
+    display: flex;
+    gap: 3vh;
+    margin-top: 2vh;
+}
+
+.limitedEdition{
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.insideLEBlock{
+    display: flex;
+    gap: 3vh;
+    margin-top: 2vh;
+    color: white;
+}
+
+.limitedHeading{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top: 2vh;
+    color: white;
+}
+
+
+
+@media only screen and (max-width : 430px) {
+  .mainRight{
+    display: none;
+  }
+
+  .mainLeft{
+    width: 100%;
+  }
+
+  .mainLeftBtn{
+    width: 45%;
+  }
+  .mainSlide{
+    height: 60vh;
+    background-color: rgb(252, 252, 252);
+  }
+  .mainLeft h1{
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 3.8rem;
+  }
+  .category{
+    width: 100%;
+  }
+  .product{
+    flex-direction: column;
+  }
+  .productCover{
+    flex-direction: column;
+  }
+
+  .product_cover{
+    width: 90vw;
+  }
+  .productCover{
+    height: 200vh;
+  }
+  .productCover div{
+    width: 90vw;
+  }
+  .productCover div:nth-child(:last-child){
+    display: none;
+  }
+  .productCover div:nth-child(7){
+    display: none;
+  }
+  .productCover div:nth-child(6){
+    display: none;
+  }
+  .productCover div:nth-child(5){
+    display: none;
+  }
+  .productCover div:nth-child(4){
+    display: none;
+  }
+  .productCover div:nth-child(3){
+    display: none;
+  }
+  .bestProductCover{
+    display: none;
+  }
+  .review{
+    display: none;
+  }
+  .insideCollection{
+    display: none;
+  }
+  .limitedEdition{
+    display: none;
+  }
+  .tredingSection{
+    height: 230vh;
+  }
+ 
+}
+
+@media only screen 
+and (max-width : 1224px) {
+
+    .mainLeft{
+        width: 45%;
+    }
+
+  .circleShap{
+    height: 50%;
+    width: 80%;
+  }
+  .circleShap img{
+    height: 50%;
+    width: 60%;
+  }
+  .mainLeftBtn{
+    width: 40%;
+  }
+
+  .allProduct{
+    height: 10vh;
+    width: 100%;
+  }
+  .bestProduct{
+    height: 70%;
+    width: 80%;
+  }
+  .bestProductCover{
+    display: none;
+  }
+  .review{
+    display: none;
+  }
+  .productCover{
+    width: 100%;
+  }
+}
